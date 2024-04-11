@@ -4,21 +4,21 @@ body {
 .block {
     display: block;
     position: static;
-    align-content: baseline;
+    align-content: flex-start;
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 470px;
+    height: 470px;
 }
 .block1 {
-   background-color: coral;
-   margin-top: 40px;
-}
-.block2 {
     background-color: #50ff9f;
     display: inline;
     margin-top: 10px;
- }
- .block3 {
+}
+.block2 {
+   background-color: coral;
+   margin-top: 40px;
+}
+.block3 {
     background-color: #6a50ff;
     display: inline-flex;
     margin-top: 50px;
