@@ -1,0 +1,19 @@
+h3:nth-child(even){
+    color: rgb(255, 0, 0);
+}
+.label {
+    font-size: larger;
+    color: blue;
+}
+#one {
+    color: #ffdd00;
+}
+#two {
+    color: hwb(276 0% 0%);
+}
+#three {
+    color: #15ff00;
+}
+.option {
+    font-size: x-large;
+}
