@@ -32,6 +32,14 @@ body {
     display: inline-flex;
     margin-top: 50px;
  }
- .button {
+.button::after {
+    content: "test";
+    color: #71cd00;
+ }
+.button::before {
+    content: "test";
+    color: hwb(16 0% 20%);
+ }
+ .button:hover {
     background-color: deepskyblue;
  }
