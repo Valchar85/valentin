@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg,#2eb7dd96,#8862b8a4);
+    background: linear-gradient(45deg,#2eb7dd96,#8962b889);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: ghostwhite;
     font-style: oblique;
@@ -13,6 +13,10 @@ body {
     justify-content: end;
     height:10%;
     margin-right: 50px;
+}
+
+a {
+    color: ghostwhite;
 }
 
 #header {
@@ -35,10 +39,12 @@ body {
 
 #left {
     display: grid;
+    align-content: center;
     justify-items: center;
     justify-content: center;
     background-color: hsl(195, 48%, 61%);
     width: 450px;
+    height: 600px;
     margin-left: 20px;
     border-radius:20px;
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.700);
@@ -47,13 +53,99 @@ body {
 
 #right {
     display: grid;
+    align-content: center;
     justify-items: center;
     justify-content: center;
     background-color: hsl(195, 48%, 61%);
     width: 450px;
+    height: 600px;
     margin-left: 20px;
     margin-right: 450px;
     border-radius:20px;
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.700);
     padding:10px 10px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    right: 150px;
+    bottom: 350px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #25D366 inset, 0 0 0 0 #25D366;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.whatsapp-button:hover {
+    box-shadow: 0 0 10px 0 #25D366 inset, 0 0 10px 4px #25D366;
+    color: #25D366;
+}
+
+.telegram-button {
+    position: fixed;
+    right: 150px;
+    bottom: 250px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #0088cc inset, 0 0 0 0 #0088cc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.telegram-button:hover {
+    box-shadow: 0 0 10px 0 #0088cc inset, 0 0 10px 4px #0088cc;
+    color: #0088cc;
+}
+
+.e-mail-button {
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 50px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #cccc00 inset, 0 0 0 0 #cccc00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.e-mail-button:hover {
+    box-shadow: 0 0 10px 0 #cccc00 inset, 0 0 10px 4px #cccc00;
+    color: #cccc00;
+}
+
+.git-button {
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 67px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #6254af inset, 0 0 0 0 #6254af;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.git-button:hover {
+    box-shadow: 0 0 10px 0 #6254af inset, 0 0 10px 4px #6254af;
+    color: #6254af;
 }
