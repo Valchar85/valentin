@@ -27,7 +27,7 @@ a {
     flex-direction:column;
     width: 450px;
     margin-right: 450px;
-    margin-left: 310px;
+    margin-left: 350px;
     margin-top: 10px;
     background-color: hsl(195, 48%, 61%);
     border-radius:20px;
@@ -49,6 +49,7 @@ a {
     height: 600px;
     margin-top: -300px;
     margin-left: 60px;
+    margin-right: 60px;
     border-radius:20px;
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.700);
     padding:10px 10px;
@@ -71,11 +72,11 @@ a {
 }
 
 .whatsapp-button {
-    position: sticky;
+    position: relative;
     justify-self: end;
     width: 110px;
-    right: 200px;
-    bottom: 350px;
+    right: 75px;
+    bottom: 420px;
     text-decoration: none;
     display: inline-block;
     padding: 15px 30px;
@@ -94,11 +95,11 @@ a {
 }
 
 .telegram-button {
-    position: sticky;
+    position: relative;
     justify-self: flex-end;
     width: 100px;
-    right: 200px;
-    bottom: 250px;
+    right: 75px;
+    bottom: 380px;
     text-decoration: none;
     display: inline-block;
     padding: 15px 35px;
@@ -117,11 +118,11 @@ a {
 }
 
 .e-mail-button {
-    position: sticky;
+    position: relative;
     justify-self: flex-end;
     width: 72px;
-    right: 200px;
-    bottom: 150px;
+    right: 75px;
+    bottom: 340px;
     text-decoration: none;
     display: inline-block;
     padding: 15px 50px;
@@ -140,11 +141,11 @@ a {
 }
 
 .git-button {
-    position: sticky;
+    position: relative;
     justify-self: flex-end;
     width: 38px;
-    right: 200px;
-    bottom: 50px;
+    right: 75px;
+    bottom: 300px;
     text-decoration: none;
     display: inline-block;
     padding: 15px 67px;
