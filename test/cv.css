@@ -1,9 +1,13 @@
 body {
-    background-color: #81d2ed;
+    display: table;
+    justify-content: center;
+    background: linear-gradient(45deg,#2eb7dd96,#8962b889);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: ghostwhite;
     font-style: oblique;
+    font-size: medium;
     text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.7);
+    overflow: scroll;
 }
 
 #photo { 
@@ -11,14 +15,25 @@ body {
     align-items:center;
     justify-content: end;
     height:10%;
-    margin-right: 50px;
+    margin-top: -135px;
+    margin-right: -70px;
+}
+
+a {
+    color: ghostwhite;
 }
 
 #header {
     display:flex;
     align-items:center;
     flex-direction:column;
+    width: 350px;
     margin-right: 450px;
+    margin-left: 400px;
+    margin-top: 5px;
+    background-color: hsl(195, 48%, 61%);
+    border-radius:20px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.700);
 }
 
 #main {
@@ -28,11 +43,15 @@ body {
 
 #left {
     display: grid;
+    align-content: center;
     justify-items: center;
     justify-content: center;
     background-color: hsl(195, 48%, 61%);
     width: 450px;
-    margin-left: 20px;
+    height: 650px;
+    margin-top: -405px;
+    margin-left: 60px;
+    margin-right: 60px;
     border-radius:20px;
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.700);
     padding:10px 10px;
@@ -40,13 +59,108 @@ body {
 
 #right {
     display: grid;
+    align-content: center;
     justify-items: center;
     justify-content: center;
     background-color: hsl(195, 48%, 61%);
     width: 450px;
+    height: 650px;
+    margin-top: -405px;
     margin-left: 20px;
     margin-right: 450px;
     border-radius:20px;
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.700);
     padding:10px 10px;
+}
+
+.whatsapp-button {
+    position: relative;
+    justify-self: end;
+    width: 110px;
+    left: 1200px;
+    bottom: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #25D366 inset, 0 0 0 0 #25D366;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.whatsapp-button:hover {
+    box-shadow: 0 0 10px 0 #25D366 inset, 0 0 10px 4px #25D366;
+    color: #25D366;
+}
+
+.telegram-button {
+    position: relative;
+    justify-self: flex-end;
+    width: 100px;
+    left: 1200px;
+    bottom: 201px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #0088cc inset, 0 0 0 0 #0088cc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.telegram-button:hover {
+    box-shadow: 0 0 10px 0 #0088cc inset, 0 0 10px 4px #0088cc;
+    color: #0088cc;
+}
+
+.e-mail-button {
+    position: relative;
+    justify-self: flex-end;
+    width: 72px;
+    left: 780px;
+    bottom: 90px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 50px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #cccc00 inset, 0 0 0 0 #cccc00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.e-mail-button:hover {
+    box-shadow: 0 0 10px 0 #cccc00 inset, 0 0 10px 4px #cccc00;
+    color: #cccc00;
+}
+
+.git-button {
+    position: relative;
+    justify-self: flex-end;
+    width: 38px;
+    left: 780px;
+    bottom: 91px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 67px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #6254af inset, 0 0 0 0 #6254af;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.git-button:hover {
+    box-shadow: 0 0 10px 0 #6254af inset, 0 0 10px 4px #6254af;
+    color: #6254af;
 }
