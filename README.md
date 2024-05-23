@@ -1,5 +1,5 @@
 # Чаричанский Валентин
-<p>WhatsApp: +7 903 816 2898
+<p>WhatsApp: +7 980 514 7099
 <p>Telegram: @Valch23
 <p>E-mail: valchar234@gmail.com
 <p>LinkedIn: https://www.linkedin.com/in/valchar
